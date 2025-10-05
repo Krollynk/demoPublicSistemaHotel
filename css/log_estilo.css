@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(0, 214, 230);
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.bloque{
+    width: 300px;
+    height: 400px;
+    background: black;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.bloque .icono_hotel_1{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.bloque h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+
+}
+
+.bloque label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.bloque input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.bloque input[type="text"],
+.bloque input[type="password"]{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+}
+
+.bloque input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 30px;
+    background: rgb(2, 198, 212);
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.bloque a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgray;
+}
+
+.bloque a:hover{
+    color: rgb(2, 198, 212);
+}
